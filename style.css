@@ -1,0 +1,153 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata'), url(https://fonts.gstatic.com/s/inconsolata/v12/BjAYBlHtW3CJxDcjzrnZCCYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata'), url(https://fonts.gstatic.com/s/inconsolata/v12/BjAYBlHtW3CJxDcjzrnZCI4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Inconsolata Bold'), local('Inconsolata-Bold'), url(https://fonts.gstatic.com/s/inconsolata/v12/AIed271kqQlcIRSOnQH0yejkDdvhIIFj_YMdgqpnSB0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Inconsolata Bold'), local('Inconsolata-Bold'), url(https://fonts.gstatic.com/s/inconsolata/v12/AIed271kqQlcIRSOnQH0yYlIZu-HDpmDIZMigmsroc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Shadows Into Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Shadows Into Light'), local('ShadowsIntoLight'), url(https://fonts.gstatic.com/s/shadowsintolight/v6/clhLqOv7MXn459PTh0gXYFK2TSYBz0eNcHnp4YqE4Ts.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+*{
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  font-weight: 700;
+  box-sizing: border-box;
+
+
+}
+
+body{
+  background-image: url("numbers.jpg");
+}
+
+#title{
+  font-size: 30px;
+  position: relative;
+  bottom: 20px;
+  color:white;
+}
+
+
+#content{
+  width: 600px;
+  border-style:solid;
+  border-width: 1px;
+  border-color: black;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: rgba(113, 47, 72, 0.87);
+}
+
+ul li span{
+  color: white; 
+}
+
+
+.middle{
+
+  width: 550px;
+  height: 100px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+
+
+
+}
+
+.positionchg{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+input#col {
+    position: relative;
+    left: 34px;
+}
+button#sumbited {
+    position: relative;
+    left: 50px;
+}
+
+#left{
+  float: left;
+}
+#right{
+  float: right;
+  margin-right: 55px;
+}
+ul, li{
+  list-style-type: none;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+tr
+{
+
+  background-color:#469f9f;
+
+}
+
+
+td:first-child{
+    background-color: rgb(59, 162, 43);
+    color: white ;
+
+
+
+}
+
+
+
+
+
+
+#container tr:first-child{
+    background-color: rgb(234, 100, 30);
+
+}
